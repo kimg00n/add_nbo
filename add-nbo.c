@@ -13,7 +13,7 @@ int main(int argc, char* argv[]){
 	fread(&num1, sizeof(uint32_t), 1, fp1);
 	fread(&num2, sizeof(uint32_t), 1, fp2);
 
-    fclose(fp1);
+    	fclose(fp1);
 	fclose(fp2);
 
 	num1 = htonl(num1);
